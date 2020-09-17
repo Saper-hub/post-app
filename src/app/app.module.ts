@@ -7,7 +7,6 @@ import { HomeComponent } from './component/home/home.component';
 import { PostsListComponent } from './component/posts-list/posts-list.component';
 import {HttpClientModule} from '@angular/common/http';
 
-
 @NgModule({
   declarations: [
     AppComponent,

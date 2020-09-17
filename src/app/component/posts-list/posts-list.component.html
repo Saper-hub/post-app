@@ -1,8 +1,24 @@
+
 <div *ngFor="let post of posts">
-  <h2>
-    {{post.title}}\</h2>
-  <small>id: {{post.id}}, userId: {{post.userId}}</small>
-  <p>
-    {{post.body}}
-  </p>
+  <h4 class="card-header">
+    {{post.title}}
+  </h4>
+  <div class="card-body">
+    <div class="card-text">{{post.body}}</div>
+    <div class="text-right">
+    <small>id: {{post.id}}, userId: {{post.userId}}</small>
+    </div>
+  </div>
 </div>
+
+<!-- ----------------- -->
+
+<!--<div *ngFor="let post of posts">-->
+<!--  <h2>-->
+<!--    {{post.title}}\</h2>-->
+<!--  <small>id: {{post.id}}, userId: {{post.userId}}</small>-->
+<!--  <p>-->
+<!--    {{post.body}}-->
+<!--  </p>-->
+<!--</div>-->
+
